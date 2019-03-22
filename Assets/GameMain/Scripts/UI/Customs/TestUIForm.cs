@@ -1,10 +1,22 @@
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using FairyGUI;
+using UnityGameFramework.Runtime;
 
-//自动生成于：2019/3/13 16:47:13
 namespace Trinity
 {
-	public class TestUIForm : UGuiForm
-	{
-	}
+    [FGuiInfo("Test")]
+    public class TestUIForm : FGuiForm
+    {
+
+        protected override void OnInit(object userData)
+        {
+            GButton btnTest = UI.GetChild("TestBtn").asButton;
+            btnTest.onClick.Set(() => {
+                Log.Debug("点击了测试按钮");
+            });
+        }
+    }
 }
+

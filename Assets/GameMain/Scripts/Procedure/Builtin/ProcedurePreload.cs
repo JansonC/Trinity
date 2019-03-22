@@ -100,6 +100,10 @@ namespace Trinity
 
             //加载热更新DLL
             GameEntry.ILRuntime.LoadHotfixDLL();
+
+            //加载FGuiRes
+            FGuiUtility.InitFGuiRes();
+            
         }
 
         private void LoadConfig(string configName)

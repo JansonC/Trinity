@@ -10,20 +10,23 @@
       <AssetBundle Name="UI/UIForms" LoadType="0" Packed="True" />
     </AssetBundles>
     <Assets>
-      <Asset Guid="014aa58f847a9d346bf43cc1cdf25346" AssetBundleName="UI/UIForms" />
-      <Asset Guid="03e774f780ee9ed42a470c092be2da5c" AssetBundleName="Entities" />
-      <Asset Guid="315e8ed2db27c254cb3366ff0793cd90" AssetBundleName="DataTables" />
-      <Asset Guid="352da872791696c48af3b21132e3e3c3" AssetBundleName="DataTables" />
-      <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" AssetBundleName="DataTables" />
-      <Asset Guid="44c8db52241385c45bbb14a1718f17bf" AssetBundleName="Configs" />
-      <Asset Guid="4df67bb295ba2a04fbc1864dc12dc6f1" AssetBundleName="Entities" />
-      <Asset Guid="92546045a05e4c840a45b4bc2d9ab917" AssetBundleName="HotfixDLL" />
-      <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" AssetBundleName="DataTables" />
-      <Asset Guid="ba4928459ef77624e9a9112b60de6643" AssetBundleName="HotfixDLL" />
-      <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" AssetBundleName="DataTables" />
-      <Asset Guid="e210a9a9dbe75b047912f73487bfb042" AssetBundleName="UI/UIForms" />
-      <Asset Guid="f2f97a713beae744181ba934f9c4113a" AssetBundleName="DataTables" />
-      <Asset Guid="f43a686438a1b7548bbe5bf34c395b46" AssetBundleName="Scene" />
+      <Asset Guid="15d6e6cda1c70eb4e83f54ea2dc86351" AssetBundleName="DataTables" />
+      <Asset Guid="43ea527051a0a184183344940834dec2" AssetBundleName="UI/UIForms" />
+      <Asset Guid="5f4891b7892d3814fa09b372f3aba4b5" AssetBundleName="DataTables" />
+      <Asset Guid="61e8d77c7fd63cd48afe8906bb195428" AssetBundleName="DataTables" />
+      <Asset Guid="6cc0d8feba43f5342b19d6304d91cb77" AssetBundleName="UI/UIForms" />
+      <Asset Guid="6ecae47c2d6568a4f907e92ec8a853be" AssetBundleName="HotfixDLL" />
+      <Asset Guid="985dfce4072a40848bf51e7cb7afb9cb" AssetBundleName="DataTables" />
+      <Asset Guid="a3bc23b12beceb046b7445048d33423d" AssetBundleName="Entities" />
+      <Asset Guid="a4ed07a90856e1a43b6148bda2995c76" AssetBundleName="UI/UIForms" />
+      <Asset Guid="b213920be0a6cea4eb6e0a5afd07555e" AssetBundleName="Configs" />
+      <Asset Guid="c0a6d6a5655369c40adefb57c8b6eecc" AssetBundleName="DataTables" />
+      <Asset Guid="c2b647e5de2733341bf421d709759593" AssetBundleName="UI/UIForms" />
+      <Asset Guid="cdf569eaa045c444eb3b1d834bee5fc0" AssetBundleName="Configs" />
+      <Asset Guid="d030fa9314af24c48b8cf66b09e3f689" AssetBundleName="DataTables" />
+      <Asset Guid="e54944d89366fab4cae940be53efc703" AssetBundleName="HotfixDLL" />
+      <Asset Guid="eac805de38700294f987fcdbdfbc49eb" AssetBundleName="Entities" />
+      <Asset Guid="f3db2cfb8cdfd9b41a6f0826529665cb" AssetBundleName="Scene" />
     </Assets>
   </AssetBundleCollection>
 </UnityGameFramework>

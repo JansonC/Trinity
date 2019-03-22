@@ -14,7 +14,7 @@ namespace Trinity
             base.OnEnter(procedureOwner);
 
             Log.Info("进入了测试流程");
-
+            GameEntry.UI.OpenUIForm(UIFormId.TestForm);
         }
 
     }
