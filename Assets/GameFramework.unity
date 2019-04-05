@@ -572,7 +572,7 @@ Prefab:
     - target: {fileID: 11454530, guid: adb3eb1c35fcff14f89fba7b05c9d71c, type: 2}
       propertyPath: m_InstanceRoot
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 171036738}
     - target: {fileID: 11454530, guid: adb3eb1c35fcff14f89fba7b05c9d71c, type: 2}
       propertyPath: m_UIGroupHelperTypeName
       value: Trinity.FGuiGroupHelper
@@ -684,7 +684,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1635817494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8130841, y: -5, z: 0}
+  m_LocalPosition: {x: 2.8125, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

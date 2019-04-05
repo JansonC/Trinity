@@ -34,7 +34,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1688576460448318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3787779, y: -4.486779, z: 0.09765625}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   datas:
+  - key: Test_atlas0
+    gameObject: {fileID: 2800000, guid: 43d7c1a87eaa79a42a21e6d4a092b1b9, type: 3}
   - key: Test_fui
     gameObject: {fileID: 4900000, guid: a4ed07a90856e1a43b6148bda2995c76, type: 3}
-  - key: Test_atlas0
-    gameObject: {fileID: 2800000, guid: c2b647e5de2733341bf421d709759593, type: 3}

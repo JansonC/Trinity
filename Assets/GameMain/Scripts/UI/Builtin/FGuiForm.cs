@@ -7,20 +7,47 @@ namespace Trinity
 {
     public abstract class FGuiForm : UIFormLogic
     {
+       
+
+        protected UIPanel UIPanel
+        {
+            get;
+            private set;
+        }
+
         protected GComponent UI
         {
             get;
             private set;
         }
 
+        /// <summary>
+        /// 原始深度
+        /// </summary>
+        public int OriginalDepth
+        {
+            get;
+            private set;
+        }
+
+        /// <summary>
+        /// 深度
+        /// </summary>
+        public int Depth
+        {
+            get
+            {
+                return UIPanel.sortingOrder;
+            }
+        }
+
+        public const int DepthFactor = 100;
+
         private static UIContentScaler s_Scaler;
 
         private void Awake()
         {
-            if (s_Scaler == null)
-            {
-                s_Scaler = GameEntry.UI.GetComponent<UIContentScaler>();
-            }
+            
 
             FGuiInfoAttribute fguiInfo;
 
@@ -41,16 +68,34 @@ namespace Trinity
                 return FGuiUtility.GetFGuiResObject(name);
             });
 
-            UIPackage.AddPackage(fguiInfo.PackageName, (string name, string extension, System.Type type, out DestroyMethod destroyMethod) =>
-            {
-                destroyMethod = DestroyMethod.Unload;
-                return FGuiUtility.GetFGuiResObject(name);
-            });
+            UIPanel = GetComponent<UIPanel>();
+            UI = UIPanel.ui;
 
-            UI = GetComponent<UIPanel>().ui;
-            GRoot.inst.SetContentScaleFactor(1080, 1920);
+            if (s_Scaler == null)
+            {
+                s_Scaler = GameEntry.UI.GetComponent<UIContentScaler>();
+                GRoot.inst.SetContentScaleFactor(s_Scaler.designResolutionX, s_Scaler.designResolutionY);
+            }
         }
 
+        protected override void OnInit(object userData)
+        {
+            base.OnInit(userData);
+            OriginalDepth = UIPanel.sortingOrder;
+        }
+
+
+
+        protected override void OnDepthChanged(int uiGroupDepth, int depthInUIGroup)
+        {
+            int oldDepth = Depth;
+            base.OnDepthChanged(uiGroupDepth, depthInUIGroup);
+            int deltaDepth = UGuiGroupHelper.DepthFactor * uiGroupDepth + DepthFactor * depthInUIGroup - oldDepth + OriginalDepth;
+            UIPanel.sortingOrder += deltaDepth;
+
+        }
+
+     
     }
 }
 
