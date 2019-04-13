@@ -1,32 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <UnityGameFramework>
   <AssetBundleCollection>
-    <AssetBundles>
-      <AssetBundle Name="Configs" LoadType="0" Packed="True" />
-      <AssetBundle Name="DataTables" LoadType="0" Packed="True" />
-      <AssetBundle Name="Entities" LoadType="0" Packed="True" />
-      <AssetBundle Name="HotfixDLL" LoadType="0" Packed="True" />
-      <AssetBundle Name="Scene" LoadType="0" Packed="True" />
-      <AssetBundle Name="UI/UIForms" LoadType="0" Packed="True" />
-    </AssetBundles>
-    <Assets>
-      <Asset Guid="15d6e6cda1c70eb4e83f54ea2dc86351" AssetBundleName="DataTables" />
-      <Asset Guid="43ea527051a0a184183344940834dec2" AssetBundleName="UI/UIForms" />
-      <Asset Guid="5f4891b7892d3814fa09b372f3aba4b5" AssetBundleName="DataTables" />
-      <Asset Guid="61e8d77c7fd63cd48afe8906bb195428" AssetBundleName="DataTables" />
-      <Asset Guid="6cc0d8feba43f5342b19d6304d91cb77" AssetBundleName="UI/UIForms" />
-      <Asset Guid="6ecae47c2d6568a4f907e92ec8a853be" AssetBundleName="HotfixDLL" />
-      <Asset Guid="985dfce4072a40848bf51e7cb7afb9cb" AssetBundleName="DataTables" />
-      <Asset Guid="a3bc23b12beceb046b7445048d33423d" AssetBundleName="Entities" />
-      <Asset Guid="a4ed07a90856e1a43b6148bda2995c76" AssetBundleName="UI/UIForms" />
-      <Asset Guid="b213920be0a6cea4eb6e0a5afd07555e" AssetBundleName="Configs" />
-      <Asset Guid="c0a6d6a5655369c40adefb57c8b6eecc" AssetBundleName="DataTables" />
-      <Asset Guid="c2b647e5de2733341bf421d709759593" AssetBundleName="UI/UIForms" />
-      <Asset Guid="cdf569eaa045c444eb3b1d834bee5fc0" AssetBundleName="Configs" />
-      <Asset Guid="d030fa9314af24c48b8cf66b09e3f689" AssetBundleName="DataTables" />
-      <Asset Guid="e54944d89366fab4cae940be53efc703" AssetBundleName="HotfixDLL" />
-      <Asset Guid="eac805de38700294f987fcdbdfbc49eb" AssetBundleName="Entities" />
-      <Asset Guid="f3db2cfb8cdfd9b41a6f0826529665cb" AssetBundleName="Scene" />
-    </Assets>
+    <AssetBundles />
+    <Assets />
   </AssetBundleCollection>
 </UnityGameFramework>
