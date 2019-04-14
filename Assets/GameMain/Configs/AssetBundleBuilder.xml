@@ -2,10 +2,9 @@
 <UnityGameFramework>
   <AssetBundleBuilder>
     <Settings>
-      <InternalResourceVersion>42</InternalResourceVersion>
-      <Platforms>1</Platforms>
+      <InternalResourceVersion>44</InternalResourceVersion>
+      <Platforms>2</Platforms>
       <ZipSelected>True</ZipSelected>
-      <RecordScatteredDependencyAssetsSelected>False</RecordScatteredDependencyAssetsSelected>
       <UncompressedAssetBundleSelected>False</UncompressedAssetBundleSelected>
       <DisableWriteTypeTreeSelected>False</DisableWriteTypeTreeSelected>
       <DeterministicAssetBundleSelected>True</DeterministicAssetBundleSelected>
@@ -13,9 +12,11 @@
       <IgnoreTypeTreeChangesSelected>False</IgnoreTypeTreeChangesSelected>
       <AppendHashToAssetBundleNameSelected>False</AppendHashToAssetBundleNameSelected>
       <ChunkBasedCompressionSelected>True</ChunkBasedCompressionSelected>
-      <BuildEventHandlerTypeName>
-      </BuildEventHandlerTypeName>
-      <OutputDirectory>D:/AssetBundleOutPut/Trinity</OutputDirectory>
+      <OutputPackageSelected>True</OutputPackageSelected>
+      <OutputFullSelected>True</OutputFullSelected>
+      <OutputPackedSelected>True</OutputPackedSelected>
+      <BuildEventHandlerTypeName>Trinity.Editor.BuildEventHandler</BuildEventHandlerTypeName>
+      <OutputDirectory>D:/UnityProject/Trinity/Assetbundles</OutputDirectory>
     </Settings>
   </AssetBundleBuilder>
 </UnityGameFramework>

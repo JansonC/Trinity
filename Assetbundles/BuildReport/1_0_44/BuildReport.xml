@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>Trinity</ProductName>
+      <CompanyName>DefaultCompany</CompanyName>
+      <GameIdentifier>com.Company.ProductName</GameIdentifier>
+      <ApplicableGameVersion>1.0</ApplicableGameVersion>
+      <InternalResourceVersion>44</InternalResourceVersion>
+      <UnityVersion>2017.4.18f1</UnityVersion>
+      <Platforms>Windows64</Platforms>
+      <ZipSelected>True</ZipSelected>
+      <BuildAssetBundleOptions>272</BuildAssetBundleOptions>
+    </Summary>
+    <AssetBundles Count="0" />
+  </BuildReport>
+</UnityGameFramework>
